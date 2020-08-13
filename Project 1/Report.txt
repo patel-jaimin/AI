@@ -1,8 +1,6 @@
 
 Artificial Intelligence1  Assignment 1
 
-Name-Jaimin Patel
-Student ID-1001538717
 
 Programming Language- Java
 
@@ -52,8 +50,7 @@ Steps for Compiling and executing -
 For eg:     java find_route input1.txt Bremen Kassel h_kassel.txt
  
 
-Task 2 -Task 6 Folder Contains: 
-1 pdf file that has the solution for task 2- task 6. 
+
 
 
 
