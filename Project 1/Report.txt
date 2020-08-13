@@ -1,0 +1,61 @@
+
+Artificial Intelligence1  Assignment 1
+
+Name-Jaimin Patel
+Student ID-1001538717
+
+Programming Language- Java
+
+Assignment1_jkp8717  Folder contains following items :
+
+Task1 Folder Contains :
+* Please compile in Same order: 
+
+	1. find_route.java	
+	2. traversal.java 
+	3. create_node.java
+	4. node_compare.java.
+
+
+1.find_route.java :  This File takes the input depending upon the argument passed on command line.
+	                  It takes 3 input for Uninformed Search and 4 input for Informed Search.
+			
+2.traversal.java:  It has two methods which handles Uninformed Search and Informed search.
+	             All the processing of input data and cost estimation with and without heuristic is done in the block of the program. 	
+	
+3.create_node.java : This class contains information of each node in the graph.
+
+4.node_compare.java: This class sorts the frontier depending on the step cost.
+
+Steps for Compiling and executing -
+
+1. First the below java files should be compiled on omega.
+	javac find_route.java   
+	javac node_compare.java
+	javac create_node.java
+	javac traversal.java
+
+2.The input1.txt and h_kassel.txt should be present in the directory.
+
+3.The find_route method takes the command line arguments of input file, source and destination and the heuristic file(for Informed Seacrh)
+
+4.To run the uninformed search type the below command on omega.
+	java filename inputfile.txt source destination
+
+      For eg:  java find_route input1.txt Bremen Kassel
+ 
+
+ 
+5.To run the Informed search type the below command on omega.
+	java filename inputfile.txt source destination heuristicfile.txt
+	
+For eg:     java find_route input1.txt Bremen Kassel h_kassel.txt
+ 
+
+Task 2 -Task 6 Folder Contains: 
+1 pdf file that has the solution for task 2- task 6. 
+
+
+
+
+
